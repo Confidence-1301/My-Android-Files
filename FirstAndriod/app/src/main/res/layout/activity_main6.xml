@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity6"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="20dp"
+                android:background="#7303F4"
+                android:text="MOVIE REVIEW"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/movieName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Movie Name"
+                    android:textSize="25dp"></EditText>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/year"
+                        android:layout_width="190dp"
+                        android:layout_height="match_parent"
+                        android:hint="Year"
+                        android:textSize="25dp"></EditText>
+
+                    <EditText
+                        android:id="@+id/duration"
+                        android:layout_width="190dp"
+                        android:layout_height="match_parent"
+                        android:hint="Duration"
+                        android:textSize="25dp"></EditText>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7303F4"
+                android:layout_marginTop="20dp">
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="60dp"
+                    android:clickable="true"
+                    android:numStars="5"
+                    android:rating="3"
+                    android:progressTint="#ffa500"/>
+            </LinearLayout>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:hint="Your Review Here"
+                android:textSize="25dp">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#7303F4"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp"></EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Starring..."
+                    android:textSize="25dp"></EditText>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Director..."
+                    android:textSize="25dp"></EditText>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="20dp"
+                android:background="#7303F4"
+                android:text="SAVE"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="40dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

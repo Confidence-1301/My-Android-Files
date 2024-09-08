@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:text="Task Management Login "
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="220dp"
+        android:hint="Phone number, username, or email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/border_radius"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="280dp"
+        android:inputType="textPassword"/>
+
+
+
+    <Button
+        android:id="@id/button"
+        android:layout_width="396dp"
+        android:layout_height="65dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="#2196F3"
+        android:text="log in"
+        android:textColor="#EFE6E6" />
+
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="530dp"
+        android:background="?android:attr/listDivider" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="90dp"
+        android:text="Forget your login details? Get help Logging in "
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="550dp"
+        android:text="Login With Facebook"
+        android:textColor="#043861"
+        android:textFontWeight="700"
+        android:textSize="30dp" />
+
+</RelativeLayout>

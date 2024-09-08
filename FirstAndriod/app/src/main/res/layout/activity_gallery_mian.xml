@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Gallery.Gallery_mian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/circle"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_3937" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="213dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:id="@+id/page1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:textSize="25dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_radius"
+                    android:text="Page1" />
+
+                <Button
+                    android:id="@+id/page2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border_radius"
+                    android:layout_weight="1"
+                    android:text="Page2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="300dp">
+            <Button
+                android:id="@+id/page3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="@drawable/border_radius"
+                android:layout_weight="1"
+                android:text="Page3" />
+
+            <Button
+                android:id="@+id/page4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_radius"
+                android:layout_weight="1"
+                android:text="Page4" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="380dp">
+            <Button
+                android:id="@+id/page5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="@drawable/border_radius"
+                android:layout_weight="1"
+                android:text="Page5" />
+
+            <Button
+                android:id="@+id/page6"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@drawable/border_radius"
+                android:layout_weight="1"
+                android:text="Page6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="460dp">
+
+            <Button
+                android:id="@+id/page7"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@drawable/border_radius"
+                android:layout_weight="1"
+                android:text="Page7" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
