@@ -26,6 +26,9 @@ import NavbarBootstrap from './NavbarBootstrap.jsx';
 import VariableObjectMap2 from './VariableObjectMap2.jsx';
 import MyForm from './Forms.jsx';
 import MyFormData from './Form1.jsx';
+import TicTacToe from './Tic.jsx';
+import Game_v1 from './Game.jsx';
+import Game_v2 from './Game2.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -50,7 +53,10 @@ createRoot(document.getElementById('root')).render(
     {/* {<NavbarBootstrap/>} */}
     {/* {<VariableObjectMap2/>} */}
     {/* {<MyForm/>} */}
-    {<MyFormData/>}
+    {/* {<MyFormData/>} */}
+    {/* {<TicTacToe/>} */}
+    {<Game_v1/>}
+    {/* {<Game_v2/>} */}
 
   </StrictMode>,
 )
