@@ -55,8 +55,8 @@ createRoot(document.getElementById('root')).render(
     {/* {<MyForm/>} */}
     {/* {<MyFormData/>} */}
     {/* {<TicTacToe/>} */}
-    {<Game_v1/>}
-    {/* {<Game_v2/>} */}
+    {/* {<Game_v1/>} */}
+    {<Game_v2/>}
 
   </StrictMode>,
 )
